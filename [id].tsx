@@ -52,7 +52,6 @@ export default function WorkflowEditorScreen() {
         return <Clock size={20} color="#fff" />;
       default:
         return <Settings size={20} color="#fff" />;
-        import Settings from './Settings'; const WorkflowWorkflowEditor: React.FC = () => { return ( <Settings onSave={handleSettingsSave} /> ); }; const
         
     }
   };
