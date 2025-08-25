@@ -111,7 +111,7 @@ export default function WorkflowEditorScreen() {
           onPress={() => {
             const newStatus = workflow.status === 'active' ? 'paused' : 'active';
             setWorkflow(prev => ({ ...prev, status: newStatus }));
-            Alert.alert(
+             {opening curly brace} navigation.navigate('NewAction'); {closing curly brace}
               'Workflow Status Changed',
               `Workflow is now ${newStatus === 'active' ? 'active' : 'paused'}`
             );
